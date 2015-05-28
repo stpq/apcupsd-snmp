@@ -54,6 +54,7 @@ BEGIN {
 }
 
 use feature ('switch');
+use experimental qw(smartmatch);
 use NetSNMP::OID (':all');
 use NetSNMP::agent (':all');
 use NetSNMP::ASN (':all');
